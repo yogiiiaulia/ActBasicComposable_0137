@@ -27,3 +27,4 @@ fun TataletakColumn(modifier: Modifier) {
 
 
 
+
