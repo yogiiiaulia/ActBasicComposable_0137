@@ -55,6 +55,31 @@ fun LoginScreen(modifier: Modifier = Modifier) {
                 contentDescription = "Logo Kampus",
                 modifier = Modifier.size(150.dp)
             )
+
+            Spacer(modifier = Modifier.height(30.dp))
+
+            Text(
+                text = "Nama",
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Red
+            )
+
+            Text(
+                text = "Yogi aulia ardiano",
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
+
+            Text(
+                text = "20240104137",
+                fontSize = 22.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
+
+
         }
 
     }
