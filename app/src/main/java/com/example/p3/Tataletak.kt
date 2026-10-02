@@ -50,4 +50,11 @@ fun Tataletak(modifier: Modifier) {
     }
 }
 
+@Composable
+fun TataLetakColumnRow(modifier: Modifier) {
+    Column() {
+
+    }
+}
+
 
