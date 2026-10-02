@@ -16,13 +16,13 @@ import com.example.p3.ui.theme.P3Theme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
         setContent {
             P3Theme() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     //Panggil Composable layout utama dengan padding dari scaffold
-                    TataletakBoxColumnRow(
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    TugasLogin(modifier = Modifier.padding(innerPadding))
+
                 }
             }
         }
